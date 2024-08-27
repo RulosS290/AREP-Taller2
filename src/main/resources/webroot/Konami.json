@@ -1,0 +1,17 @@
+[
+    {
+        "company": "Konami",
+        "name": "Metal Gear Solid V: The Phantom Pain",
+        "consoles": "PS4, PS3, Xbox One, Xbox 360, PC"
+    },
+    {
+        "company": "Konami",
+        "name": "Pro Evolution Soccer 2021",
+        "consoles": "PS4, Xbox One, PC"
+    },
+    {
+        "company": "Konami",
+        "name": "Castlevania: Symphony of the Night",
+        "consoles": "PS1, Xbox 360, PSP, Android, iOS"
+    }
+]

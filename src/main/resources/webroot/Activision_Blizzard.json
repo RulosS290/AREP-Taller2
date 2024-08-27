@@ -1,0 +1,43 @@
+[
+    {
+        "company": "Activision Blizzard",
+        "name": "Diablo III",
+        "consoles": "PS3, PS4, Xbox 360, Xbox One, Nintendo Switch, PC"
+    },
+    {
+        "company": "Activision Blizzard",
+        "name": "Diablo IV",
+        "consoles": "PS4, PS5, Xbox One, Xbox Series X/S, PC"
+    },
+    {
+        "company": "Activision Blizzard",
+        "name": "Hearthstone",
+        "consoles": "PC, iOS, Android"
+    },
+    {
+        "company": "Activision Blizzard",
+        "name": "StarCraft II",
+        "consoles": "PC, Mac"
+    },
+    {
+        "company": "Activision Blizzard",
+        "name": "Heroes of the Storm",
+        "consoles": "PC, Mac"
+    },
+    {
+        "company": "Activision Blizzard",
+        "name": "Crash Bandicoot 4: It's About Time",
+        "consoles": "PS4, PS5, Xbox One, Xbox Series X/S, Nintendo Switch, PC"
+    },
+    {
+        "company": "Activision Blizzard",
+        "name": "Tony Hawk's Pro Skater 1+2",
+        "consoles": "PS4, PS5, Xbox One, Xbox Series X/S, Nintendo Switch, PC"
+    },
+    {
+        "company": "Activision Blizzard",
+        "name": "Sekiro: Shadows Die Twice",
+        "consoles": "PS4, PS5, Xbox One, Xbox Series X/S, PC"
+    }
+]
+

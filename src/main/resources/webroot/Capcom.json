@@ -1,0 +1,27 @@
+[
+    {
+        "company": "Capcom",
+        "name": "Devil May Cry 5",
+        "consoles": "PS4, PS5, Xbox One, Xbox Series X/S, PC"
+    },
+    {
+        "company": "Capcom",
+        "name": "Resident Evil 2 (Remake)",
+        "consoles": "PS4, PS5, Xbox One, Xbox Series X/S, PC"
+    },
+    {
+        "company": "Capcom",
+        "name": "Monster Hunter Rise",
+        "consoles": "Nintendo Switch, PC"
+    },
+    {
+        "company": "Capcom",
+        "name": "Mega Man 11",
+        "consoles": "PS4, Xbox One, Nintendo Switch, PC"
+    },
+    {
+        "company": "Capcom",
+        "name": "Resident Evil 4 (Remake)",
+        "consoles": "PS4, PS5, Xbox One, Xbox Series X/S, PC"
+    }
+]

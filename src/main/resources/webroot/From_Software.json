@@ -1,0 +1,17 @@
+[
+    {
+        "company": "From Software",
+        "name": "Elden Ring",
+        "consoles": "PS4, PS5, Xbox One, Xbox Series X/S, PC"
+    },
+    {
+        "company": "From Software",
+        "name": "Dark Souls III",
+        "consoles": "PS4, Xbox One, PC"
+    },
+    {
+        "company": "From Software",
+        "name": "Sekiro: Shadows Die Twice",
+        "consoles": "PS4, Xbox One, PC"
+    }
+]

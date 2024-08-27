@@ -1,0 +1,28 @@
+[
+    {
+        "company": "Rockstar Games",
+        "name": "Max Payne 3",
+        "consoles": "PS3, Xbox 360, PC"
+    },
+    {
+        "company": "Rockstar Games",
+        "name": "L.A. Noire",
+        "consoles": "PS3, PS4, Xbox 360, Xbox One, Nintendo Switch, PC"
+    },
+    {
+        "company": "Rockstar Games",
+        "name": "Grand Theft Auto: San Andreas",
+        "consoles": "PS2, PS3, PS4, Xbox, Xbox 360, Xbox One, PC, iOS, Android"
+    },
+    {
+        "company": "Rockstar Games",
+        "name": "Midnight Club: Los Angeles",
+        "consoles": "PS3, Xbox 360, PSP"
+    },
+    {
+        "company": "Rockstar Games",
+        "name": "The Warriors",
+        "consoles": "PS2, Xbox, PSP, PS4"
+    }
+]
+

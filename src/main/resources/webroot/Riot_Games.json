@@ -1,0 +1,17 @@
+[
+    {
+        "company": "Riot Games",
+        "name": "League of Legends",
+        "consoles": "PC"
+    },
+    {
+        "company": "Riot Games",
+        "name": "Valorant",
+        "consoles": "PC"
+    },
+    {
+        "company": "Riot Games",
+        "name": "Teamfight Tactics",
+        "consoles": "PC, iOS, Android"
+    }
+]

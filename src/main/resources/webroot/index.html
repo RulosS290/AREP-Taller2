@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Video Game Companies Directory</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles.css" rel="stylesheet" type="text/css">
+
+        <script src="client.js"></script>
+    </head>
+    <body>
+        <header id="header" class="text-center my-4">
+            <h1 id="title">Video Game Companies</h1>
+        </header>
+        <div class="container">
+            <div class="dropdown text-center mb-4">
+                <hr>
+                <div id="companies">
+                    <button class="btn btn-light mx-2" id="Ubisoft" onclick="getCompanies('Ubisoft')" data-color="#000000">Ubisoft</button>
+                    <button class="btn btn-light mx-2" id="From Software" onclick="getCompanies('From_Software')" data-color="#003366">From Software</button>
+                    <button class="btn btn-light mx-2" id="Supercell" onclick="getCompanies('Supercell')" data-color="#004d00">Supercell</button>
+                    <button class="btn btn-light mx-2" id="Hoyoverse" onclick="getCompanies('Hoyoverse')" data-color="#009999">Hoyoverse</button>
+                    <button class="btn btn-light mx-2" id="EA" onclick="getCompanies('EA')" data-color="#cc0000">EA</button>
+                    <button class="btn btn-light mx-2" id="Nintendo" onclick="getCompanies('Nintendo')" data-color="#4b0082">Nintendo</button>
+                    <button class="btn btn-light mx-2" id="Konami" onclick="getCompanies('Konami')" data-color="#0033cc">Konami</button>
+                    <button class="btn btn-light mx-2" id="Riot Games" onclick="getCompanies('Riot_Games')" data-color="#003300">Riot Games</button>
+                    <button class="btn btn-light mx-2" id="Capcom" onclick="getCompanies('Capcom')" data-color="#cccc00">Capcom</button>
+                    <button class="btn btn-light mx-2" id="Santa Monica Studio" onclick="getCompanies('Santa_Monica_Studio')" data-color="#c71585">Santa Monica Studio</button>
+                    <button class="btn btn-light mx-2" id="343 Industries" onclick="getCompanies('343_Industries')" data-color="#32cd32">343 Industries</button>
+                    <button class="btn btn-light mx-2" id="Activision Blizzard" onclick="getCompanies('Activision_Blizzard')" data-color="#003366">Activision Blizzard</button>
+                    <button class="btn btn-light mx-2" id="Rockstar Games" onclick="getCompanies('Rockstar_Games')" data-color="#800000">Rockstar Games</button>
+                </div>
+                
+                
+            </div>
+            <div id="tables" class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5>Game Titles</h5>
+                        </div>
+                        <div class="card-body">
+                            <h3 id="text"></h3>
+                            <table id="companyTable" class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Company</th>
+                                        <th>Game Title</th>
+                                        <th>Consoles</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Dynamic content will be inserted here -->
+                                </tbody>
+                            </table>
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination justify-content-center">
+                                    <li class="page-item">
+                                        <a id="previous" class="page-link" href="#" tabindex="-1" aria-disabled="false" onclick="displayNextGames('previous')" data-page="0">Previous</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a id="next" class="page-link" href="#" tabindex="3" aria-disabled="false" onclick="displayNextGames('next')" data-page="1">Next</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
