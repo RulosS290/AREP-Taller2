@@ -43,14 +43,16 @@ mvn clean compile exec:java '-Dexec.mainClass=com.eci.SimpleWebServer'
 * Seguimos el siguiente URl para ver la aplicación: http://localhost:8080/index.html
 ## Funcionalidad
 1. Probamos el primer requerimiento, el cual es hacer un metodo GET para los servicios estaticos. http://localhost:8080/helloWorld
+2. 
    ![imagen](https://github.com/user-attachments/assets/9d6e1702-5e32-482a-937e-828882fdf586)
-2. Probamos el segundo requerimiento. http://localhost:8080/hello?name=Daniel
+3. Probamos el segundo requerimiento. http://localhost:8080/hello?name=Daniel
+4. 
    ![imagen](https://github.com/user-attachments/assets/faa8ef56-1713-44bc-b627-b8a644c854e8)
    
    Se puede cambiar el nombre cambiando el nombre después del igual(Ej hello?name=Federico)
-4. Adicional http://localhost:8080/nameAge?name=Daniel&age=21
+5. Adicional http://localhost:8080/nameAge?name=Daniel&age=21
    ![imagen](https://github.com/user-attachments/assets/e470e9ae-c364-431a-8964-a71369567167)
-5. Tercer requerimiento, especificación de los archivos estaticos por medio de un metodo staticfiles().
+6. Tercer requerimiento, especificación de los archivos estaticos por medio de un metodo staticfiles().
    ![imagen](https://github.com/user-attachments/assets/46b73fd2-e3cd-431f-80ac-fef80662ebce)
    
    En caso de cambiar la ruta no se encontrarian los archivos.
@@ -59,7 +61,7 @@ mvn clean compile exec:java '-Dexec.mainClass=com.eci.SimpleWebServer'
    
    ![imagen](https://github.com/user-attachments/assets/dce0e12c-6a15-4e13-97ec-9650e7b883be)
 
-6. Responder solicitudes de archivos estaticos. http://localhost:8080/From_Software.json o http://localhost:8080/EA.json
+7. Responder solicitudes de archivos estaticos. http://localhost:8080/From_Software.json o http://localhost:8080/EA.json
    
 ![imagen](https://github.com/user-attachments/assets/d4b7683e-1ac5-4350-a57d-70f3a3e81c04)
 
